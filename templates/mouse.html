@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--  <link rel="stylesheet" href="../static/css/style.css"> -->
+    <link rel="stylesheet" href="../static/css/style1.css">  <!-- Assuming you're using the same styles.css for styling -->
+    <title>Mouse Control Buttons</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Mouse Control Buttons</h1>
+        <div class="button-container">
+            <form action="/left_click" method="post">
+                <button class="click-button" type="submit">
+                    <img src="../static/img/left_click.png" alt="Left Click">
+                    Left Click
+                </button>
+            </form>
+            
+            <form action="/right_click" method="post">
+                <button class="click-button" type="submit">
+                    <img src="../static/img/right_click.png" alt="Right Click">
+                    Right Click
+                </button>
+            </form>
+        </div>
+        <div class="button-container">
+            <form action="/left_arrow" method="post">
+                <button class="arrow-button" type="submit">
+                    <img src="../static/img/left_arrow.png" alt="Left Arrow">
+                    Left Arrow
+                </button>
+            </form>
+            <form action="/right_arrow" method="post">
+                <button class="arrow-button" type="submit">
+                    <img src="../static/img/right_arrow.png" alt="Right Arrow">
+                    Right Arrow
+                </button>
+            </form>
+        </div>
+        <div class="button-container">
+            <form action="/scroll_up" method="post" type="submit">
+                <button class="scroll-button">
+                    <img src="../static/img/up_arrow.png" alt="Scroll Up">
+                    Scroll Up
+                </button>
+            </form>
+            <form action="/scroll_down" method="post" type="submit">
+                <button class="scroll-button">
+                    <img src="../static/img/down_arrow.png" alt="Scroll Down">
+                    Scroll Down
+                </button>
+            </form>
+        </div>
+        <div class="button-container">
+            <form action="/exit" method="post" type="submit">
+                <button class="exit-button">
+                    <img src="../static/img/exit.png" alt="Scroll Up">
+                    Connection
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
